@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0244/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0244/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 東嶽大生寶懺
+  date: '2015-08-29 00:14:42.113740'
+  source:
+    repository: kanripo
+    path: KR5b0244
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0244_000-HFL.yaml, hash: 'sha256:3662999ba36afa5b13f41a2d9b13afd16b884f2d53abb33fe982b47d15c58d7a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0244_000-HFL.markers.yaml, hash: 'sha256:5f8ef87b2a94380cb70ba6df887e5e09383bb64efaf8510075b5d16508fd776b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0244_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 4802
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:4497697dcdb3ae0c6fb878ec35784c7872f92a27e4f1aac4074fb70ff082b995
